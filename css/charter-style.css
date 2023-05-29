@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-size: 14px;
+}
+body {
+  max-width: 1200px;
+  margin: 50px auto;
+  line-height: 1.4;
+}
+
+i {
+  font-size: 25px;
+}
+
+h3 {
+  border-bottom: 2px solid rgb(170, 167, 167);
+  /* padding-bottom: 15px; */
+  color: blue;
+  font-size: 25px;
+}
+
+a {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.pcard {
+  background-color: rgb(220, 231, 246);
+  padding: 2px 20px;
+}
+
+.content-line span {
+  font-weight: bold;
+}
+
+.goals .content-line {
+  border-bottom: 1px solid rgb(184, 180, 180);
+  margin-bottom: 10px;
+}
+.primary span {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin-right: 8px;
+}
+
+.time-line span {
+  color: white;
+  font-size: 23px;
+  background-color: rgb(158, 127, 244);
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 8px;
+}
